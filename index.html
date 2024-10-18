@@ -1,9 +1,237 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>The Best Recipes!</title>
+    <title>Just Dough It! 🥖</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Style the body */
+      body {
+        font-family: sans-serif;
+        margin: 0;
+      }
+
+      /* Header/logo Title */
+      .header {
+        padding: 1px;
+        text-align: center;
+        background: white;
+      }
+
+      /* Style the top navigation bar */
+      .navbar {
+        display: flex;
+        justify-content: space-around;
+        background-color: #333;
+      }
+
+      /* Style the navigation bar links */
+      .navbar a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+      }
+
+      /* Change color on hover */
+      .navbar a:hover {
+        background-color: #3e8e41;
+        color: black;
+      }
+
+      /* Column container */
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      /* Create two unequal columns that sits next to each other */
+      /* Sidebar/left column */
+      .side {
+        flex: 30%;
+        background-color: #f1f1f1;
+        padding: 20px;
+      }
+
+      /* Main column */
+      .main {
+        flex: 70%;
+        background-color: white;
+        padding: 20px;
+      }
+
+      /* Footer */
+    .footer {
+        padding: 20px;
+        font-size: 10px;
+        text-align: center;
+        background-color: #ffffff;
+        color: rgb(2, 1, 1);
+      }
+
+      #
+      /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+     @media screen and (max-width: 700px) {
+        .row,
+        .navbar {
+          flex-direction: column;
+        }
+      }
+
+      .dropdown {
+      position:relative
+      display:inline-block;
+    }
+
+    .dropbtn {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Style the dropdown content (hidden by default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block ;
+    }
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
+    </style>
   </head>
   <body>
-    <h1>Recipes</h1>
+    <!-- Note -->
+    <!-- Note -->
+    <div style="background: orange; padding: 0.5px; text-align: center">
+      <h4>
+       <marquee></span>*** New recipes up every Tuesdays! ***</marquee>
+      </h4>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+      <h1>
+        <img
+          id="img1"
+          src="Just Dough It.jpeg"
+          width="400px"
+          height="250px"
+        />
+      </h1>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <a href="index.html">Homepage</a>
+          <a href="#">Share Your Recipe</a>
+      <a href="#">Locate Us</a>
+       <div class="dropdown">
+    <button class="dropbtn">Cuisine</button>
+    <div class="dropdown-content">
+      <a href="Sourdough.html">Bread Recipes</a>
+      <a href="Pasta.html">Pasta Recipes</a>
+      <a href="Pizza.html">Pizza Recipes</a>
+      <a href="Dessert.html">Dessert Recipes</a>
+    </div>
+      
+    </div>
+</div>
+    <!-- The flexible grid (content) -->
+    <div class="row">
+      <div class="side">
+        <h2>About Us</h2>
+          <img src = "About Us.jpg" width = 200px height= 200px;>
+        
+        <p><br> Hi there, We're just a couple who are crazy about doughs!</br>
+       <br>We see cooking as an act of love and relaxation. Here at Just Dough It!, we offer a diverse collection of cozy, flavorful, small-batch recipes made from scratch.</p>
+        <h3>Check out our latests recipes:</h3>
+        <p>Halloween Snack Board</p>
+         <img src = "Halloween Snack Board.jpeg" style="width: 90%; display: block;">
+        <br />
+      </div>
+      <div class="main">
+        <h2>RECIPES FOR FALL</h2>
+        <h5>By Hannah Halls, 18 Oct 2024</h5>
+       <img src = "Fall Food.jpg" style="width: 50%; display: block; margin: 0 auto;">
+        <p>If you're from the South or even if you've just pulled up a chair to eat dinner here, you just know: We aren't afraid to use butter, cream, or mayo to bring a meal together in a heartbeat, and autumn is the perfect time to make some of our favorite comfort foods for the whole family.
+
+<p></p>These recipes make use of some of the season's best produce, from squash and sweet potatoes to hearty, leafy greens for creamy, cheesy comfort foods like Butternut Squash Pasta and Chicken And Dumplings.</p>
+
+<p>There are also some fun mashups like Cornbread Cowboy Casserole and Chicken And Stuffing Casserole. And whether you prefer the Instant pot or the slow-cooker, we've got you covered all fall long.</p>
+
+ <p><div class="navbar">
+      <a href="index.html">Click here to read more!</a></div></p>
+   
+      <h2>PIE FOR DAYS</h2>
+        <h5>By Hannah Halls, 10 Oct 2024</h5>
+       <img src = "Cherry Pie.jpg" style="width: 50%; display: block; margin: 0 auto;">
+        <p>This cherry pie recipe is one of my favorite homemade desserts. It features a buttery, flaky crust and a velvety, almond-scented filling. If you allow it to cool completely, it slices beautifully, but the filling still stays a tiny bit juicy so that you can savor the cherries’ delicious texture.
+
+
+<p></p>These recipes make use of some of the season's best produce, from squash and sweet potatoes to hearty, leafy greens for creamy, cheesy comfort foods like Butternut Squash Pasta and Chicken And Dumplings.</p>
+
+<p>This cherry pie recipe is simple to make. But heads up: it does take some time. The pie dough has to chill and the filling has to cool before you can assemble and bake the pie. If you want to get ahead, you can make both the crust and the filling a day or two in advance—find my tips in the post below.</p>
+
+ <p><div class="navbar">
+      <a href="index.html">Click here to read more!</a></div></p>
+   
+    
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+     <h2>
+        <span>Follow us to stay updated:</span>
+        <img
+          src= "instagram logo.jpeg"
+          width="30px"
+          height="30px"
+          style="vertical-align: middle; margin-left: 10px;"
+        />
+        <img
+          src="tiktok logo.jpeg"
+          width="35px"
+          height="35px"
+          style="vertical-align: middle; margin-left: 10px; margin-right: 1px"
+        /><img
+          src="facebook logo.jpeg"
+          width="25px"
+          height="25px"
+          style="vertical-align: middle; margin-left: 10px; margin-right: 1px"
+        />
+      </h2>
+    </div>
   </body>
 </html>
+
