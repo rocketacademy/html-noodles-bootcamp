@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Just Dough It! 🥖</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Style the body */
+      body {
+        font-family: sans-serif;
+        margin: 0;
+      }
+
+      /* Header/logo Title */
+      .header {
+        padding: 1px;
+        text-align: center;
+        background: white;
+      }
+
+      /* Style the top navigation bar */
+      .navbar {
+        display: flex;
+        justify-content: space-around;
+        background-color: #333;
+      }
+
+      /* Style the navigation bar links */
+      .navbar a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+      }
+
+      /* Change color on hover */
+      .navbar a:hover {
+        background-color: #3e8e41;
+        color: black;
+      }
+
+      /* Column container */
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      /* Create two unequal columns that sits next to each other */
+      /* Sidebar/left column */
+      .side {
+        flex: 30%;
+        background-color: #f1f1f1;
+        padding: 20px;
+      }
+
+      /* Main column */
+      .main {
+        flex: 70%;
+        background-color: white;
+        padding: 20px;
+      }
+
+      /* Footer */
+      .footer {
+        padding: 20px;
+        font-size: 10px;
+        text-align: center;
+        background-color: #ffffff;
+        color: rgb(2, 1, 1);}
+
+      #
+      /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+     @media screen and (max-width: 700px) {
+        .row,
+        .navbar {
+          flex-direction: column;
+        }
+      }
+
+      .dropdown {
+      position:relative
+      display:inline-block;
+    }
+
+    .dropbtn {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Style the dropdown content (hidden by default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block ;
+    }
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
+
+     .ingredients{
+      border: 2px dotted black;
+      padding: 10px; 
+
+    }
+    </style>
+  </head>
+  <body>
+    <!-- Note -->
+    <!-- Note -->
+    <div style="background: orange; padding: 0.5px; text-align: center">
+      <h4>
+       <marquee></span>*** New recipes up every Tuesdays! ***</marquee>
+      </h4>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+      <h1>
+        <img
+          id="img1"
+          src="Just Dough It.jpeg"
+          width="400px"
+          height="250px"
+        />
+      </h1>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <a href="index.html">Homepage</a>
+          <a href="#">Share Your Recipe</a>
+      <a href="#">Locate Us</a>
+       <div class="dropdown">
+    <button class="dropbtn">Cuisine</button>
+    <div class="dropdown-content">
+      <a href="Sourdough.html">Bread Recipes</a>
+      <a href="Pasta.html">Pasta Recipes</a>
+      <a href="Pizza.html">Pizza Recipes</a>
+      <a href="Dessert.html">Dessert Recipes</a>
+    </div>
+      
+    </div>
+</div>
+<!-- The flexible grid (content) -->
+    <div class="row">
+      <div class="main">
+        <h2>EASY CREAMY TOMATO PASTA</h2>
+        <h5>By Howard Halls, 10 Jan 2020</h5>
+       <img src = "Pasta Photo.jpeg" style="width: 50%; display: block; margin: 0 auto;">
+       <p><i>Want an insanely delicious and easy dinner in 10 minutes? This creamy tomato sauce is a staple recipe you need to add to your repertoire. Made with simple ingredients, this luscious and glossy sauce is perfect for busy weeknights or equally to impress friends and family. A creamy parmesan packed sauce with a tomato paste base and a squeeze of lemon for the perfect finishing touch!</i>
+
+</p>
+<!-- Step by Step Guide -->
+        <p><b>Step-By-Step Recipe Guide</b></p>
+        <p><u>Ingredient List</u></p>
+          <div class="ingredients">
+        Combine the following ingredients in a large bowl (I use a fork to mix):
+        <ul><li>1 handful of pasta of your choice</li>
+          <li> 1/2 cup diced onion</li> 
+          <li>4 cloves garlic</li> 
+          <li>2 tablespoon tomato paste</li> 
+          <li>1/2 cup heavy cream</li> 
+          <li>1 cup parmesan cheese</li> </ul></div>
+<br><b>Step 1:</b> In a large pan, fry the onion in olive oil and butter over a medium heat until softened, 4 - 5 minutes. Don't let them colour so turn the heat down if you need to.</br>
+<br><b>Step 2:</b>Add the garlic and pepper and mix well, cook for a further minute. </br>
+<br><b>Step 3:</b>Add the tomato paste and let it cook for a minute or two, stirring. </br>
+<br><b>Step 4:</b>Add the cream, you don't want a lot of heat here so switch to a low heat. The cream is at a very gentle simmer. Whisk together. Add the lemon juice and whisk in quickly. </br>
+<br><b>Step 5:</b>It will look a bit dodgy at first but it will come together to a nice orange sauce like this. A flat whisk is a great investment!</br>
+<br><b>Step 6:</b>Add your cooked pasta of choice straight into the sauce with a splash of pasta water and let it gently bubble away for a minute or two to thicken.
+
+
+
+
+      
+      </div>
+    </div>
+
+     <!-- Footer -->
+    <div class="footer">
+     <h2>
+        <span>Follow us to stay updated:</span>
+        <img
+          src= "instagram logo.jpeg"
+          width="30px"
+          height="30px"
+          style="vertical-align: middle; margin-left: 10px;"
+        />
+        <img
+          src="tiktok logo.jpeg"
+          width="35px"
+          height="35px"
+          style="vertical-align: middle; margin-left: 10px; margin-right: 1px"
+        /><img
+          src="facebook logo.jpeg"
+          width="25px"
+          height="25px"
+          style="vertical-align: middle; margin-left: 10px; margin-right: 1px"
+        />
+      </h2>
+    </div>
+  </body>
+</html>
+
