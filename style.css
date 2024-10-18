@@ -1,0 +1,91 @@
+* {
+    font-family: Georgia, Arial, serif;
+}
+
+/* Nagivation Bar */
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+}
+
+h1 {
+    font-size: 36px;
+    margin-right: 3em;
+    margin-left: 5em;
+    text-align: center;
+    color: green;
+}
+
+nav > div > a {
+    margin-right: 5em;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+/* Index.html Main Section */
+.container {
+    display: flex;
+    /* grid-template-columns: repeat(4, 1fr); */
+    gap: 20px;
+    padding: 20px; 
+}
+  
+.cuisine-image {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+
+/* Cuisine Page */
+.cuisine-image {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+    display: grid;
+}
+
+.cuisine-column {
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.cuisine-row {
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    height: auto;
+    gap: 10px;
+}
+
+.cuisine-row > h3 {
+    text-align: center;
+    color: green;
+}
+
+/* Recipe Page */
+.recipe-column {
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.recipe-row {
+    display: flex;
+    flex-direction: column;
+    width: 50em;
+    height: auto;
+    gap: 10px;
+}
+
+.recipe-row > h2 {
+    text-align: center;
+    color: green;
+}
