@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Just Dough It! 🥖</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Style the body */
+      body {
+        font-family: sans-serif;
+        margin: 0;
+      }
+
+      /* Header/logo Title */
+      .header {
+        padding: 1px;
+        text-align: center;
+        background: white;
+      }
+
+      /* Style the top navigation bar */
+      .navbar {
+        display: flex;
+        justify-content: space-around;
+        background-color: #333;
+      }
+
+      /* Style the navigation bar links */
+      .navbar a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+      }
+
+      /* Change color on hover */
+      .navbar a:hover {
+        background-color: #3e8e41;
+        color: black;
+      }
+
+      /* Column container */
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      /* Create two unequal columns that sits next to each other */
+      /* Sidebar/left column */
+      .side {
+        flex: 30%;
+        background-color: #f1f1f1;
+        padding: 20px;
+      }
+
+      /* Main column */
+      .main {
+        flex: 70%;
+        background-color: white;
+        padding: 20px;
+      }
+
+      /* Footer */
+      .footer {
+        padding: 20px;
+        font-size: 10px;
+        text-align: center;
+        background-color: #ffffff;
+        color: rgb(2, 1, 1);}
+      }
+
+      #
+      /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+     @media screen and (max-width: 700px) {
+        .row,
+        .navbar {
+          flex-direction: column;
+        }
+      }
+
+      .dropdown {
+      position:relative
+      display:inline-block;
+    }
+
+    .dropbtn {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Style the dropdown content (hidden by default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block ;
+    }
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
+
+     .ingredients{
+      border: 2px dotted black;
+      padding: 10px; 
+
+    }
+    </style>
+  </head>
+  <body>
+    <!-- Note -->
+    <!-- Note -->
+    <div style="background: orange; padding: 0.5px; text-align: center">
+      <h4>
+       <marquee></span>*** New recipes up every Tuesdays! ***</marquee>
+      </h4>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+      <h1>
+        <img
+          id="img1"
+          src="Just Dough It.jpeg"
+          width="400px"
+          height="250px"
+        />
+      </h1>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <a href="index.html">Homepage</a>
+          <a href="#">Share Your Recipe</a>
+      <a href="#">Locate Us</a>
+       <div class="dropdown">
+    <button class="dropbtn">Cuisine</button>
+    <div class="dropdown-content">
+      <a href="Sourdough.html">Bread Recipes</a>
+      <a href="Pasta.html">Pasta Recipes</a>
+      <a href="Pizza.html">Pizza Recipes</a>
+      <a href="Dessert.html">Dessert Recipes</a>
+    </div>
+      
+    </div>
+</div>
+
+<!-- The flexible grid (content) -->
+    <div class="row">
+      <div class="main">
+        <h2>HOMEMADE PEPPERONI PIZZA</h2>
+        <h5>By Howard Halls, 2 APR 2023</h5>
+       <img src = "Pizza Photo.jpeg" style="width: 50%; display: block; margin: 0 auto;">
+     <p><i>Our kids love pizza, so pepperoni pizza is usually a surefire dinner win. But if I'm being honest, I rarely make pizza for my kids. I view pizza as a cheat night for me, and I get delivery.
+
+So when I decided to make pizza at home, I knew it needed to be better than your average delivery. It needed tons of pepperoni, a nice crust, great flavor, and maybe even a surprise or two to put it over the top.
+
+</i>
+
+</p>
+<!-- Step by Step Guide -->
+        <p><b>Step-By-Step Recipe Guide</b></p>
+          <div class="ingredients">
+        <p><u>Ingredient List</u></p>
+        <ul><li>16 ounces pizza dough</li>
+          <li> 1/2 cup diced onion</li> 
+          <li>1/2 cup pizza sauce</li> 
+          <li>18 to 20 slices of pepperoni</li> 
+          <li>12 ounces mozzarella cheese, grated</li> 
+          <li>1 teaspoon fresh oregano, optional</li> 
+          <li>1/2 teaspoon ground black pepper</li> </ul></div>
+
+<br><b>Step 1 - Preheat the Oven:</b><p> If you are using a pizza stone, preheat it in the oven for at least 20 minutes so it is nice and hot as well. </br></p>
+
+<br><b>Step 2 - Make the Sauce:</b><p>If you are using my sauce recipe, stir together the ingredients. The sauce recipe makes just enough for one large pizza. You can easily double it if you are making more than one pizza. </br></p>
+
+<br><b>Step 3 -  Roll out the dough:</b><p>Roll out dough on a lightly floured surface. If it's hard to roll, let it rest for 5 minutes so it can come to room temperature. For a large pizza, I like to roll my dough into about a 14-inch diameter circle. </br></p>
+<br><b>Step 4 - Add the toppings:</b><p>Transfer the dough to a lightly dusted pizza peel. Alternatively, fit it into a large cast-iron. <br></p>
+
+Add sauce in a light layer all over the pizza, leaving about 1/4-inch crust around the edges. Chop half of the pepperoni and sprinkle it over the sauce. Top the pizza with grated cheese and the rest of the pepperoni. Season with black pepper.</br>
+<br><b>Step 5 - Cook The Pizza: </b><p>If you're using a pizza stone, carefully slide pizza into the center of the preheated pizza stone. Cook for 6 minutes, then rotate the pizza halfway so it cooks evenly. Cook for another 6 to 8 minutes, or until the crust is golden brown and charred in spots.</br></p>
+
+
+
+
+      
+      </div>
+    </div>
+
+  <!-- Footer -->
+    <div class="footer">
+     <h2>
+        <span>Follow us to stay updated:</span>
+        <img
+          src= "instagram logo.jpeg"
+          width="30px"
+          height="30px"
+          style="vertical-align: middle; margin-left: 10px;"
+        />
+        <img
+          src="tiktok logo.jpeg"
+          width="35px"
+          height="35px"
+          style="vertical-align: middle; margin-left: 10px; margin-right: 1px"
+        /><img
+          src="facebook logo.jpeg"
+          width="25px"
+          height="25px"
+          style="vertical-align: middle; margin-left: 10px; margin-right: 1px"
+        />
+      </h2>
+    </div>
+  </body>
+</html>
+
+
