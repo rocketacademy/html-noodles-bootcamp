@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Just Dough It! 🥖</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Style the body */
+      body {
+        font-family: sans-serif;
+        margin: 0;
+      }
+
+      /* Header/logo Title */
+      .header {
+        padding: 1px;
+        text-align: center;
+        background: white;
+      }
+
+      /* Style the top navigation bar */
+      .navbar {
+        display: flex;
+        justify-content: space-around;
+        background-color: #333;
+      }
+
+      /* Style the navigation bar links */
+      .navbar a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+      }
+
+      /* Change color on hover */
+      .navbar a:hover {
+        background-color: #3e8e41;
+        color: black;
+      }
+
+      /* Column container */
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      /* Create two unequal columns that sits next to each other */
+      /* Sidebar/left column */
+      .side {
+        flex: 30%;
+        background-color: #f1f1f1;
+        padding: 20px;
+      }
+
+      /* Main column */
+      .main {
+        flex: 70%;
+        background-color: white;
+        padding: 20px;
+      }
+
+      /* Footer */
+       .footer {
+        padding: 20px;
+        font-size: 10px;
+        text-align: center;
+        background-color: #ffffff;
+        color: rgb(2, 1, 1);}
+
+      #
+      /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+     @media screen and (max-width: 700px) {
+        .row,
+        .navbar {
+          flex-direction: column;
+        }
+      }
+
+      .dropdown {
+      position:relative
+      display:inline-block;
+    }
+
+    .dropbtn {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Style the dropdown content (hidden by default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block ;
+    }
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
+    </style>
+  </head>
+  <body>
+    <!-- Note -->
+    <!-- Note -->
+    <div style="background: orange; padding: 0.5px; text-align: center">
+      <h4>
+       <marquee></span>*** New recipes up every Tuesdays! ***</marquee>
+      </h4>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+      <h1>
+        <img
+          id="img1"
+          src="Just Dough It.jpeg"
+          width="400px"
+          height="250px"
+        />
+      </h1>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <a href="index.html">Homepage</a>
+          <a href="#">Share Your Recipe</a>
+      <a href="#">Locate Us</a>
+       <div class="dropdown">
+    <button class="dropbtn">Cuisine</button>
+    <div class="dropdown-content">
+      <a href="Sourdough.html">Bread Recipes</a>
+      <a href="Pasta.html">Pasta Recipes</a>
+      <a href="Pizza.html">Pizza Recipes</a>
+      <a href="Dessert.html">Dessert Recipes</a>
+    </div>
+      
+    </div>
+</div>
+<!-- The flexible grid (content) -->
+    <div class="row">
+      <div class="main">
+        <h2>BASIC SOURDOUGH RECIPE</h2>
+        <h5>By Hannah Halls, 8 Aug 2024</h5>
+       <img src = "Sourdough Photo.jpeg" style="width: 50%; display: block; margin: 0 auto;">
+      <p><i>Think you can’t bake fresh, homemade sourdough bread at home? Think again! Sourdough Bread: a beginner’s guide is your best recipe resource for easy, step-by-step sourdough bread without kneading. Make the dough in the morning or at night- it will come together in under 10 minutes. The taste is light, crisp and tangy!</i>
+
+</p>
+<!-- Step by Step Guide -->
+        <p><b>Step-By-Step Recipe Guide</b></p>
+        <p><u>Step #1: Mix The Dough</u></p>
+        Combine the following ingredients in a large bowl (I use a fork to mix):
+        <ul><li> 250 g water</li> 
+          <li>150g bubbly,active sourdough starter</li> 
+          <li>500g bread flour</li> 
+          <li>10g fine sea salt</li> 
+          <li> 25g olive oil</li> </ul>
+<p>Squish the mixture together with your hands until the flour is fully absorbed. The dough will feel dry, rough and shaggy.
+<br>Cover the bowl with plastic wrap, reusable wax wrap, or a very damp kitchen towel. Let rest or ‘autolyse’ for about 30 minutes to 1 hour. </br><br>After the dough has rested, return to the bowl and work it into a ball (it doesn’t have look perfect).</br></p>
+        
+ <p><u>Step #2: Bulk Rise</u></p>
+
+<p>Now the dough is ready to rise. This step is referred to as the “bulk rise” or “bulk fermentation.”
+<br>Cover the bowl with plastic wrap, reusable wax wrap, or a very damp kitchen towel. Let rest or ‘autolyse’ for about 30 minutes to 1 hour. </br><br>To do so: cover the bowl of dough with lightly oiled wrap (or transfer to a dough tub) and let rise at room temperature, about 68-70 F..</br></p>
+
+
+<p><u>Step #3: Divide & Shape The Dough</u></p>
+
+<p>Remove the dough onto a lightly floured surface.
+Cut the dough in half to make 2 loaves, or leave it whole to bake a single loaf.</p>
+        
+      
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+     <h2>
+        <span>Follow us to stay updated:</span>
+        <img
+          src= "instagram logo.jpeg"
+          width="30px"
+          height="30px"
+          style="vertical-align: middle; margin-left: 10px;"
+        />
+        <img
+          src="tiktok logo.jpeg"
+          width="35px"
+          height="35px"
+          style="vertical-align: middle; margin-left: 10px; margin-right: 1px"
+        /><img
+          src="facebook logo.jpeg"
+          width="25px"
+          height="25px"
+          style="vertical-align: middle; margin-left: 10px; margin-right: 1px"
+        />
+      </h2>
+    </div>
+  </body>
+</html>
